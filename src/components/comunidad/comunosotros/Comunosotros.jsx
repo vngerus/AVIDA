@@ -5,6 +5,7 @@ import angel from '../comunosotros/comuimg/angel.png';
 import poli from '../comunosotros/comuimg/poli.png';
 import mati from '../comunosotros/comuimg/mati.png';
 import roen from '../comunosotros/comuimg/roen.png';
+import kevin from '../comunosotros/comuimg/kevin.png';
 
 export const Comunosotros = () => {
   return (
@@ -12,7 +13,7 @@ export const Comunosotros = () => {
       <article class='perfiles'>
         <div class='perfil-sup'>
           <figure>
-            <img src={angel} alt='perfil' />
+            <img src={kevin} alt='perfil' />
 
             <figcaption>
               <h3>Kevin Peña </h3>
