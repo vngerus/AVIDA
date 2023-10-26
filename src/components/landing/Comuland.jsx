@@ -6,6 +6,8 @@ import Comuhome from '../comunidad/comuhome/Comuhome';
 import Comucone from '../comunidad/comucone/Comucone';
 import Comuruta from '../comunidad/comuruta/Comuruta';
 import Comunos from '../comunidad/comunos/Comunos';
+import Comunosotros from '../comunidad/comunosotros/Comunosotros';
+import Footer from '../footer/Footer';
 
 function Comuland() {
   return (
@@ -15,6 +17,8 @@ function Comuland() {
       <Comucone />
       <Comuruta />
       <Comunos />
+      <Comunosotros />
+      <Footer />
     </div>
   );
 }
