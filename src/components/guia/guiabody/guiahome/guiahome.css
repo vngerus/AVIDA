@@ -1,0 +1,29 @@
+:root {
+  --primerafuente: 'Quicksand', sans-serif;
+  --segundafuente: 'Montserrat', sans-serif;
+}
+
+.guiahome-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url('src/assets/img/guiapag.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.custom-text {
+  font-family: var(--primerafuente);
+  font-weight: 500;
+  font-size: 100px;
+}
+
+.custom-p {
+  font-size: 30px;
+  font-weight: 400;
+}

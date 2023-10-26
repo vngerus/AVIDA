@@ -1,0 +1,38 @@
+:root {
+  --gris: #f4f4f4;
+  --blanco: #fff;
+  --verdeClaro: #b2bd96;
+  --verde: #8d9f6f;
+  --verdeLimon: #929747;
+  --verdeOscuro: #52662b;
+  --primerafuente: "Quicksand", sans-serif;
+  --segundafuente: "Montserrat", sans-serif;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: var(--gris);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.btn-primary {
+  width: 100%;
+  background-color: var(--verdeOscuro);
+  border-color: var(--verdeLimon);
+}
+
+.btn-primary:hover {
+  background-color: var(--verde);
+  color: #fff;
+}
+
+.espacio-tienda {
+  padding: 130px 0 100px 0;
+}
+.espacio-h2 {
+  padding-bottom: 40px;
+}

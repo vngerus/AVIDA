@@ -1,0 +1,10 @@
+.members-comunos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.member {
+  margin: 10px;
+}

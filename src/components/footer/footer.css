@@ -1,0 +1,45 @@
+:root {
+  --gris: #f4f4f4;
+  --blanco: #fff;
+  --verdeClaro: #b2bd96;
+  --verde: #8d9f6f;
+  --verdeLimon: #929747;
+  --verdeOscuro: #52662b;
+  --primerafuente: 'Quicksand', sans-serif;
+  --segundafuente: 'Montserrat', sans-serif;
+}
+
+#root {
+  max-width: 1920px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.container-footer {
+  background-color: var(--verde);
+  color: white;
+}
+
+.icono {
+  border-radius: 0%;
+}
+
+.ajustes {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.ajuste-footer {
+  text-align: left;
+}
+.ajustes-iconos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}

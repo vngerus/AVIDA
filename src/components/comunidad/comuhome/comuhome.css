@@ -1,0 +1,32 @@
+.home-container-comu {
+  width: 100%;
+  height: 100vh;
+  background-image: url("src/assets/img/comuphone.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+  text-align: left;
+  color: #fff;
+}
+
+.custom-text {
+  font-family: var(--primerafuente);
+  font-weight: 500;
+  font-size: 100px;
+}
+
+.lead {
+  font-family: var(--segundafuente);
+}
+
+.custom-p {
+  font-size: 30px;
+  font-weight: 400;
+}
+.section-divider {
+  border: 2px solid #fff;
+  margin: 20px 0;
+}

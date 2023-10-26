@@ -1,0 +1,87 @@
+.comunidad-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  /*  text-align: center; */
+}
+
+.animal-images {
+  display: flex;
+  margin: 20px;
+}
+
+.animal {
+  text-align: center;
+  margin: 10px;
+  max-width: 500px;
+}
+
+.persona-images {
+  display: flex;
+  justify-content: center; /* Centrar las imágenes de persona */
+  align-items: center; /* Centrar verticalmente las imágenes de persona */
+  margin: 20px;
+}
+
+.persona-images img {
+  max-width: 100px; /* Ajusta el tamaño de las imágenes de las personas según sea necesario */
+}
+
+.descripcion {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Modificacion de card */
+.contenedor-contenido-card {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  justify-content: space-between;
+  align-content: space-between;
+  justify-content: start;
+  margin-bottom: 30px;
+}
+
+.contenedor-user {
+  padding-right: 50px;
+}
+
+.custom-info-p {
+  text-align: left;
+}
+
+.tamaño-h2 {
+  font-size: 2.5rem;
+  padding-bottom: 50px;
+}
+
+.divider-center {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.section-verde {
+  border: 2px solid var(--verde);
+  margin: 40px 0;
+  width: 150px;
+}
+
+.contenedor-img img,
+.contenedor-user img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .animal {
+    margin: 10px 0; /* Ajusta el margen para dispositivos más pequeños */
+  }
+
+  .tamaño-h2 {
+    font-size: 2rem; /* Reduce el tamaño del título en dispositivos más pequeños */
+    padding-bottom: 30px; /* Ajusta el espaciado inferior del título */
+  }
+}

@@ -1,0 +1,21 @@
+.tienda-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.imagen-y-botones {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.imagen-tienda {
+  max-width: 100%;
+}
+
+.button-space {
+  margin-top: 30px;
+}

@@ -1,0 +1,65 @@
+.map-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 100vh;
+  border: 2px solid white; /* Agrega un borde blanco de 2 píxeles alrededor del mapa */
+}
+
+.imagen-filtro {
+  width: 200px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.imagen-filtro img {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.imagen-filtro img.selected {
+  border: 2px solid blue;
+}
+
+.mapae {
+  flex: 1;
+  height: 100%;
+}
+
+.selected-image {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 0 5px rgba(0, 255, 0, 0.7);
+}
+
+.leaflet-marker-icon {
+  transition: all 0.3s ease;
+}
+
+.leaflet-marker-icon.selected {
+  filter: brightness(1.5);
+}
+.section-divider {
+  border: 2px solid #fff;
+  margin: 20px 0;
+}
+
+/* Estilos para los botones de navegación */
+.navigation-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 73px; /* Aumenta el padding horizontal para hacer los botones más anchos */
+  cursor: pointer;
+  border-radius: 5px; /* Agrega bordes redondeados */
+  display: block; /* Hacer que los botones ocupen todo el ancho disponible */
+  margin: 5px 0; /* Espaciado entre botones */
+}
+
+.navigation-button:hover {
+  background-color: darkgreen;
+}

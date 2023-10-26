@@ -1,0 +1,13 @@
+.flex-galeria {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 51px;
+}
+
+.flex-interno {
+  display: flex;
+  justify-content: space-between;
+}
+.col-md-5 img {
+  height: 75vh;
+}

@@ -1,0 +1,26 @@
+.crearuta-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.crearuta-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  margin-top: 80px;
+  text-align: left;
+}
+
+.crearuta-text {
+  font-size: 1.1rem;
+  color: #fff;
+  text-align: left;
+}
+
+.section-divider {
+  border: 2px solid #fff;
+  margin: 20px 0;
+}
+
+.row img {
+  border-radius: 10px;
+}

@@ -1,0 +1,62 @@
+/*.container1 {
+  padding-top: 50px;
+} */
+
+.container-espacio {
+  margin-top: 70px;
+}
+
+.conecta-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  margin-top: 0;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.conecta-text {
+  font-size: 1.1rem;
+  color: #888;
+  text-align: left;
+  padding-left: 50px;
+  margin-top: 20px;
+}
+
+.conecta-image {
+  max-width: 60%;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.style-button {
+  display: block;
+  width: 150px;
+  height: 50px;
+  background-color: var(--verde);
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.section-divider {
+  border: 2px solid #fff;
+  margin: 20px 0;
+}
+.espacio-row {
+  padding-top: 20px;
+}
+.flex-imagen {
+  display: flex;
+}
+
+.divider-center2 {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
