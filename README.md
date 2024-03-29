@@ -59,7 +59,7 @@ _The Ávida application in its minimum viable format. It addresses biodiversity 
   <img src="https://avatars.githubusercontent.com/u/142447730?s=96&v=4" alt="papitas"></p></a>
   🥔 <a> PapitasGroup6
 </a>:</p>
-<p>🍟<a href="https://github.com/AngelSmithlgs">Angel Smith</a></p>
+<p>🍟<a href="https://github.com/vngerus">Angel Smith</a></p>
 🍟<a href="https://github.com/Rosa-Enco-Perez">Rosa Enco Perez</a></p>
 <p>🍟<a href="https://github.com/Nosst-bot">Kevin Peña Salvatierra</a></p>
 🍟<a href="https://github.com/PauletteDoll">Paulette Doll</a></p>
